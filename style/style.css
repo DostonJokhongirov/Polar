@@ -1,0 +1,23 @@
+@import url(./fonts.css);
+:root {
+    --r700 : 'Roboto-Bold';
+    --r500 : 'Roboto-Medium';
+    --r400 : 'Roboto-Regular';
+    --hm700 : 'HindMadurai-Bold';
+    --hm600 : 'HindMadurai-SemiBold';
+    --hm500 : 'HindMadurai-Medium';
+    --hm400 : 'HindMadurai-Regular';
+    --f400 : 'Fredoka-Regular';
+    --pink: #D23166;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conatiner {
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
