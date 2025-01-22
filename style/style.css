@@ -15,6 +15,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
+ul{
 a {
     text-decoration: none;
 }
@@ -27,6 +31,132 @@ ul {
     padding: 0 15px;
     margin: 0 auto;
 }
+.main{
+    padding-top: 137px;
+    padding-bottom: 149px;
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+}
+.products_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+}
+.products_title{
+    font-family: var(--hm600);
+    font-size: 44.2px;
+    font-weight: 600;
+    line-height: 61px;
+}
+.products_list{
+    display: flex;
+    gap: 40px;
+
+}
+.products_link{
+    color: #000000;
+    opacity: 60%;
+    transition: 0.5s;
+}
+.products_link:hover{
+    opacity: 100%;
+}
+.card{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 85px;
+}
+.card_box{
+    width: 454px;
+}
+.card_title{
+    font-family: var(--hm700);
+font-size: 26px;
+font-weight: 700;
+line-height: 35.88px;
+}
+.card_text{
+    font-family: var(--r400);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: 70%;
+    margin-top: 11px;
+    margin-bottom: 28px;
+}
+.card_price{
+    font-family: var(--hm500);
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 35.88px;
+    line-height: 100%;  
+    gap: 5px;
+    margin-bottom: 31px;
+}
+.card_price span{
+    font-family: var(--hm500);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27.6px;
+    opacity: 70%;
+    text-decoration: line-through;
+}
+.card_button{
+    width: 169px;
+    height: 49px;
+    font-family: var(--r500);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    background-color: #D23166;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.card:nth-child(3){
+    display: flex;
+    flex-direction: row-reverse;
+    text-align: right;
+    transform: translateX(50px);
+}
+.comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.comment_minibox{
+    display: flex;
+    align-items: center;
+    gap: 11px;  
+}
+.Adele_box{
+    display: flex;  
+    flex-direction: column;
+    gap: 5px;
+}
+.comment_Adele_title{
+    font-family: var(--r500);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+}
+.comment_Adele_text{
+    font-family: var(--r500);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.06px;
+    opacity: 70%;
+}
+.text_Adela{
+    display: flex;
+}
+.comment_text{
+    width: 322px;
 
 header::after {
     content: '';
@@ -176,6 +306,38 @@ header::after {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    opacity: 70%;
+    margin-top: 50px;
+    margin-bottom: 56px;
+}
+.comment_text span{
+    font-size: 25px;
+    color: #F6762C;
+}
+.another_comments{
+    display: flex;
+    gap: 25px;
+}
+.strelka_vlevo{
+    width: 14px;
+}
+.strelka_vpravo{
+    width: 19px;
+}
+.avatar_photos{
+    display: flex;
+    gap: 27px;
+}
+.comment_man{
+    width: 35px;
+}
+.comment_Adele{
+    border-radius: 50%;
+    border-style: groove;
+    border-color: #D64374;
+}
+.comment_woman{
+    width: 35px; 
     color: #150101;
     opacity: 60%;
     width: 442px;   
